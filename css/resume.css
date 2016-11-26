@@ -1,0 +1,46 @@
+/*!
+ * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  font-size: 15px;
+  margin: 0 10px;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  text-align: center;
+}
+p,
+ul {
+  margin: 0;
+}
+h1 {
+  margin: 3px;
+}
+.content .content {
+  display: flex;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.content section {
+  margin-bottom: 8px;
+}
+.content section > .title {
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 8px;
+}
+.content .half-list {
+  flex: 1 1 0;
+}
+.content .half-list-container {
+  display: flex;
+}
+.content > aside {
+  flex: 1;
+}
+.content > .description {
+  flex: 4;
+}

@@ -1,0 +1,51 @@
+body{
+  font-size: 15px;
+  margin: 0 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  text-align: center;
+}
+
+p, ul{
+  margin: 0;
+}
+
+h1{
+  margin: 3px;
+}
+
+.content{
+
+  .content{
+    display: flex;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  section{
+
+    > .title{
+      font-size: 1.2em;
+      font-weight: bold;
+      border-bottom: 1px solid lightgrey;
+      margin-bottom: 8px;
+    }
+    margin-bottom: 8px;
+  }
+
+  .half-list{
+    &-container{
+      display: flex;
+    }
+    flex : 1 1 0;
+  }
+
+  >aside{
+    flex:1;
+  }
+  >.description{
+    flex:4;
+  }
+}
