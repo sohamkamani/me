@@ -5,8 +5,35 @@
  */
 body {
   font-size: 15px;
-  margin: 0 10px;
+  margin: 0;
   font-family: 'Roboto', sans-serif;
+  width: 100%;
+  color: #333;
+}
+.container {
+  position: relative;
+  padding: 0 10px;
+}
+.download-as {
+  position: absolute;
+  right: 10px;
+  color: #da251c;
+}
+.download-as a,
+.download-as a:visited {
+  color: #da251c;
+}
+@media (min-width: 1000px) {
+  .container {
+    width: 70%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid grey;
+    background-color: #FFFFFF;
+  }
+  body {
+    background: url("../img/greyzz.png");
+  }
 }
 header {
   text-align: center;
@@ -17,6 +44,7 @@ ul {
 }
 h1 {
   margin: 3px;
+  font-family: 'Times New Roman', serif;
 }
 .content .content {
   display: flex;
